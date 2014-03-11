@@ -1,4 +1,4 @@
 cardapio
 ========
 
-CMS para Administração de Cardápio Digital - Medigital teste
+CMS para Administração de Cardápio Digital - Medigital teste 2
