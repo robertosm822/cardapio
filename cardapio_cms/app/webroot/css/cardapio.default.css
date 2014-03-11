@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html,body{
+    background-color: #F5F5F5;
+}
+.both{
+    clear: both;
+}
+#header,#footer{
+    background-color: #3B3B41;
+    width: 100%;
+    position: fixed;
+    padding: 0;
+}
+#header{
+    top:0;
+    height: 50px;
+    border-bottom: 2px solid #6C6C70;
+}
+#footer{
+    height: 18px;
+    bottom:0;
+    font-family: 'Myriad Pro';
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 6px;
+    color: #EEEEEE;
+}
+#content{
+    background:white;
+    margin: 65px auto 39px auto;
+    padding: 16px 20px 16px 20px;
+    height: auto;
+    width: 920px;
+    border: 3px solid #EEEEEE;
+}
+.clear {
+    clear:  both;
+}
+.d960px{
+   width: 966px;
+   height: auto;
+   margin: 0 auto;
+}
+.logoHeader{
+    background-image: url('../img/logo-header.png');
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-top: 5px;
+}
+.imagensHeader{
+    background-image: url('../img/imagens-header.png');
+    height: 16px;
+    width: 21px;
+    float: left;
+    margin-top: 17px;
+}
+.restauranteHeader,.restauranteHeaderDropdown{
+    background-image: url('../img/restaurante-header.png');
+    height: 18px;
+    width: 17px;
+    float: left;
+    margin-top: 15px;
+    margin-right: 7px;
+}
+.restauranteHeaderDropdown{
+    margin-top: 4px;
+}
+.arrowdownHeader{
+    background-image: url('../img/arrowdown-header.png');
+    height: 7px;
+    width: 8px;
+    float: right;
+    cursor: pointer;
+    margin-top: 22px;
+    margin-left: 7px;
+}
+.titleHeader{
+    color: #B8B8BA;
+    font-family: 'Myriad Pro';
+    font-size: 24px;
+    float: left;
+    margin: 10px 0 0 10px;
+}
+
+#profilePhoto{
+    float: right;
+    border-right: 3px solid #46464B;
+    height: 100%;
+}
+#profilePhoto:hover #profileBox{
+    visibility: visible;
+}
+#profileBox{
+    background-color: #3b3b41;
+    height: 80px;
+    min-width: 200px;
+    width: auto;
+    padding: 19px;
+    float: right;
+    margin-top: 1px;
+    border-top: 2px solid #6C6C70;
+    margin-right: -3px;
+    visibility: hidden;
+    font-family: 'Myriad Pro';
+    font-size: 20px;
+    color: #EEEEEE;
+    font-weight: lighter;
+    text-align: right;
+}
+
+#profileBox a{
+    text-decoration: none;
+    font-family: 'Myriad Pro';
+    font-weight: lighter;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #00A9EC;
+    padding: 6px 16px;
+    margin-top: 12px;
+    float: right;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+#liImages:hover{
+    background-color: #282828;
+}

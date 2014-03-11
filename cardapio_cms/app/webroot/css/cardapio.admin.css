@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#topBar{
+   height: 34px;
+}
+
+#topBar a{
+    height: auto;
+    width: auto;
+    padding: 3px 11px 3px 11px;
+    font-family: 'Myriad Pro';
+    font-size: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: lighter;
+    float: right;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#topBar a.blue{
+    background: #00a9ec;
+}
+#topBar a.green{
+    background: #99cc65;
+}
+
+#topBar div{
+    float: left;
+    font-family: 'Myriad Pro';
+    font-size: 25px;
+    font-weight: lighter;
+    color: #3b3b41;
+}
+
+#topBar div span{
+    color: #a8a8ab;
+    font-size: 17px;
+}
+
+#itemList{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+#itemList table{
+    width: 100%;
+    font-family: 'Myriad Pro';
+    font-weight: lighter;
+    color: #3b3b41;
+    border-collapse: collapse;
+}
+
+#itemList table thead{
+    font-size: 20px;
+}
+
+#itemList table thead tr td{
+    border-bottom: 3px solid #3b3b41;
+    padding: 5px 0;
+}
+    
+#itemList table thead tr td{
+    text-align: center;
+}
+
+#itemList table tbody tr td{
+    border: 1px solid #fafafa;
+    text-align: center;
+}
+#itemList table tbody tr td.first{
+    text-align: left !important;
+}

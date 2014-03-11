@@ -1,0 +1,17 @@
+/* menu horizontal-vertical by micox */
+ .menu-hv * { margin: 0; padding: 0; font-size: 12px;}
+ .menu-hv a { display: block;  }
+ .menu-hv li { list-style: none; float: left; height: 1%; }
+ .menu-hv li ul { position: absolute; visibility: hidden;}
+ .menu-hv li ul li { float: none; white-space: nowrap; display: inline; /* o inline é pro IE */}
+ .menu-hv li ul li ul { position: absolute; left: 100%; top: 0; }
+ .menu-hv li:hover ul, .menu-hv li.over ul { visibility: visible;}
+ .menu-hv li:hover ul ul, .menu-hv li.over ul ul { visibility: hidden;}
+ .menu-hv ul ul li:hover ul, .menu-hv ul ul li.over ul { visibility: visible;}
+ /* visual */
+ .menu-hv {  /*background: #DF2800 url(img/bg-menu.jpg) repeat-x top; */ background-color: #b3b3b3;
+                                    width: 278px;  margin: 0 0 0 12px; height: 23px;}
+             .menu-hv a { font-weight: bold;  text-decoration: none; color: #04c; text-decoration: none;
+                                        padding: 0 10px; line-height: 23px;}
+             .menu-hv a:hover { text-decoration:  underline; background-color: #000; color: #FFF; text-decoration: none;}
+             .menu-hv ul li ul {  background-color: #c4e3f3; border: 1px solid #b3b3b3; }
