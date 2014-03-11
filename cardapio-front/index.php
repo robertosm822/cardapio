@@ -9,7 +9,7 @@ require_once('controller/conn.php');
 /*
 	PROJETAR CONSTRUIR A VERSÃO DESTE LAYOUT DINÂMICO COM APENAS A PASSAGEM DO PARAMETRO ID DO RESTAURANTE
 	ADICIONANDO A URL O SEGINTE FORMATO /cardapio-front/?rest=11#home
-	MODIFICAR AS CONSULTAS RELACIONANDO AO RESTAURANTE TODO O CONTEÚDO
+	MODIFICAR AS CONSULTAS RELACIONANDO AO RESTAURANTE TODO O CONTEUDO
 	*/	
 //primeira verificacao se é um numero ou não eh vazio	
 if(isset($_GET['rest']) && is_numeric((integer)$_GET['rest']) && isset($_GET['card']) && is_numeric((integer)$_GET['card'])){
